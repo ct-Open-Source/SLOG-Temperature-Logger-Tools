@@ -28,8 +28,12 @@ Please review the code carefully before relying on it in production or safety-re
 
 ---
 
-## Supported Devices
+## Support
 
+### Operating Systems
+- Tested using Ubuntu 24.04.1
+
+### Devices
 - Likely any MesaVSS/SevenMS Temperature logger that presents as USB HID device with **Vendor ID `0x246C`**
 - Known working example: SLOG-30
 
@@ -38,6 +42,8 @@ Because different models may expose different HID interfaces (or different proto
 - enumerates *all* HID interfaces under VID `0x246C`
 - lets you select a device by index (CLI) or dropdown (GUI)
 - tries commands best-effort and reports timeouts/checksum issues cleanly
+
+Please let us know if you tested other operating systems and devices.
 
 ---
 
@@ -230,7 +236,7 @@ python3 mesavss_gui.py
 
 ---
 
-## Timezone Handling (Important)
+## Timezone Handling
 
 Many Mesavss devices store timestamps as “device epoch seconds” plus an implicit offset.  
 This tool uses the `--tz` / GUI “TZ” field to interpret and write time consistently.
