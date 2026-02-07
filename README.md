@@ -1,6 +1,6 @@
 # Mesavss/Seven-MS Temperature-Logger-Tools
 
-A small cross-platform tool to configure Mesavss USB temperature/humidity data loggers (and related Mesavss devices) that expose a HID interface under **Vendor ID `0x246C`**.
+A small, open-source cross-platform tool to configure Mesavss USB temperature/humidity data loggers (and related Mesavss devices) that expose a HID interface under **Vendor ID `0x246C`**.
 
 This repository contains:
 
