@@ -445,8 +445,8 @@ class App(tk.Tk):
         ttk.Button(tab, text="Set interval ONLY (seconds)", command=lambda: self.run_safe(self.on_set_interval_s_only)).grid(row=2, column=2, padx=10, pady=6, sticky="w")
         add_row(3, "Interval (min):", self.interval_min_var)
         ttk.Button(tab, text="Set interval ONLY (minutes)", command=lambda: self.run_safe(self.on_set_interval_min_only)).grid(row=3, column=2, padx=10, pady=6, sticky="w")
-        add_row(4, "Temp max (°C):", self.temp_max_var)
-        add_row(5, "Temp min (°C):", self.temp_min_var)
+        add_row(4, "High Temp. Alert (°C):", self.temp_max_var)
+        add_row(5, "Low Temp. Alert (°C):", self.temp_min_var)
         add_row(6, "Humidity max (%RH):", self.humi_max_var)
         add_row(7, "Humidity min (%RH):", self.humi_min_var)
 
