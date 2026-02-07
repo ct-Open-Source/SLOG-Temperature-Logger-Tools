@@ -57,8 +57,8 @@ Please let us know if you tested other operating systems and devices.
 - Configure:
   - start delay
   - interval (seconds or minutes)
-  - temperature min/max
-  - humidity min/max
+  - high and low temperature alerts
+  - high and low humidity alerts
 - Read/set device time (timezone-offset aware)
 - Read:
   - device info
