@@ -13,11 +13,11 @@ The implementation is based on reverse-engineering the vendor’s WebHID applica
 
 ## Disclaimer (No Warranty / No Liability)
 
-This software is provided **as-is**, **without any warranty**, and **without any guarantee of functionality**, merchantability, fitness for a particular purpose, or non-infringement.
+This software is provided **as-is**, **without any warranty**, and **without any guarantee of functionality**, merchantability, fitness for a particular purpose, or non-infringement. This software and the owner of this repository are in no way affiliated with Mesavss/Seven-MS.
 
 It is shared **without any liability or obligation** from **heise Medien / c’t** (including editors, employees, contractors, or contributors). Use at your own risk.
 
-**You are responsible** for verifying results and ensuring safe operation of your device(s). Some functions (e.g. reset/clear records) can irreversibly modify device state.
+**You are responsible** for verifying results and ensuring safe operation of your device(s). Some functions (e.g. reset/clear records) may irreversibly modify device state.
 
 ---
 
@@ -238,7 +238,7 @@ python3 mesavss_gui.py
 
 ## Timezone Handling
 
-Many Mesavss devices store timestamps as “device epoch seconds” plus an implicit offset.  
+Apparently Mesavss devices store timestamps as “device epoch seconds” plus an implicit offset.  
 This tool uses the `--tz` / GUI “TZ” field to interpret and write time consistently.
 
 Examples:
@@ -256,7 +256,7 @@ If your CSV/PDF report shows a wrong timezone label but the timestamps are corre
 
 - Not all Mesavss devices support all commands.
 - Some devices expose multiple HID interfaces; only one may respond to the logger protocol.
-- Record reading is “best effort” and assumes 16-byte record frames. Some models may differ.
+- Record reading is “best effort” and assumes 16-byte record frames. Some models may differ. Please prefer the PDF/CSV export.
 - “Write SN”, tests, and reset behavior vary by device.
 
 ---
