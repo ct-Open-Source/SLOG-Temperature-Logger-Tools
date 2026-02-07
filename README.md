@@ -268,14 +268,3 @@ If your CSV/PDF report shows a wrong timezone label but the timestamps are corre
 - Always verify settings by re-reading configuration after writing.
 
 ---
-
-## License
-
-Add your license here (e.g. MIT). If you don’t have one yet, GitHub’s license picker can help.
-
----
-
-## Acknowledgements
-
-- Reverse-engineered protocol structure inspired by the vendor’s WebHID implementation.
-- Implementation and docs created with substantial assistance from AI.
