@@ -1,4 +1,4 @@
-# Mesavss HID Tool (VID 0x246C) — CLI + GUI
+# Mesavss/Seven-MS Temperature-Logger-Tools
 
 A small cross-platform tool to configure Mesavss USB temperature/humidity data loggers (and related Mesavss devices) that expose a HID interface under **Vendor ID `0x246C`**.
 
